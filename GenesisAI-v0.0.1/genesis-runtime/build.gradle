@@ -1,1 +1,7 @@
-dependencies{implementation project(':genesis-brain-api')}
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api project(':genesis-brain-api')
+}

@@ -1,1 +1,11 @@
-dependencies{implementation project(':genesis-runtime')}
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':genesis-runtime')
+}
+
+application {
+    mainClass = 'ai.genesis.example.Main'
+}
